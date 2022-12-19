@@ -28,7 +28,7 @@ Y=df["Type"]
 from sklearn.preprocessing import MinMaxScaler
 MM=MinMaxScaler()
 
-# X1 columns Standidization
+# X1 columns Standardization
 
 X1["Na"]=MM.fit_transform(X1[["Na"]])
 
@@ -85,7 +85,7 @@ print("aucvalue", aucvalue.round(3))
 from sklearn.preprocessing import MinMaxScaler
 MM=MinMaxScaler()
 
-# X columns Standidization
+# X columns Standardization
 
 X["RI"]=MM.fit_transform(X[["RI"]])
 
